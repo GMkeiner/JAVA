@@ -8,7 +8,7 @@ public class Maquina_bebidas {
 
         Scanner scanner = new Scanner(System.in);
 
-        String nombreCliente = "Keiner";
+        String nombreCliente = "Luis";
         System.out.println("Bienvenido a la maquina de bebidas");
         System.out.println("1 - Cafe");
         System.out.println("2 - Jugo");
