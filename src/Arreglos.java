@@ -77,8 +77,11 @@ public class Arreglos {
         //Tipo nombre     indices
         //dato            0   1  2  3  4
         int[] numeros = {10 ,20,30,40,50};
-        char[] letras = new char[23];
+        // char[] letras = new char[23];
 
+    
+    
+       
         numeros[2] = 100; // Modificar el valor de un  indice de nuestro arreglo.
 
         int indice = 0;
@@ -96,6 +99,7 @@ public class Arreglos {
             
         }
 
+        System.out.println();
         String palabras = "Esternocleidomastoideo";
 
         System.out.println("La palabra " + palabras + " Tiene " + palabras.length() + " Letras ");
