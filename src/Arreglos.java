@@ -77,35 +77,8 @@ public class Arreglos {
         //Tipo nombre     indices
         //dato            0   1  2  3  4
         int[] numeros = {10 ,20,30,40,50};
-        char[] letras = new char[25];
+        char[] letras = new char[23];
 
-        letras[0] = 'K';
-        letras[1] = 'E';
-        letras[2] = 'I';
-        letras[3] = 'N';
-        letras[5] = 'E';
-        letras[6] = 'E';
-        letras[77777] = '';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        letras[4] = 'E';
-        
         numeros[2] = 100; // Modificar el valor de un  indice de nuestro arreglo.
 
         int indice = 0;
