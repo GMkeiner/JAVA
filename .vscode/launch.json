@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Juego_ahorcado",
+            "request": "launch",
+            "mainClass": "Juego_ahorcado",
+            "projectName": "JAVA_174c814e"
+        },
+        {
+            "type": "java",
             "name": "Arreglos",
             "request": "launch",
             "mainClass": "Arreglos",
