@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassAttributeMethod",
+            "request": "launch",
+            "mainClass": "POO.ClassAttributeMethod",
+            "projectName": "JAVA_af599cd2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "HolaMundo.App",
+            "projectName": "JAVA_af599cd2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAVA_af599cd2"
+        },
+        {
+            "type": "java",
             "name": "Juego_ahorcado",
             "request": "launch",
             "mainClass": "Juego_ahorcado",
