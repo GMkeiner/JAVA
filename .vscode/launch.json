@@ -9,6 +9,13 @@
             "name": "ClassAttributeMethod",
             "request": "launch",
             "mainClass": "POO.ClassAttributeMethod",
+            "projectName": "JAVA_f74a6b77"
+        },
+        {
+            "type": "java",
+            "name": "ClassAttributeMethod",
+            "request": "launch",
+            "mainClass": "POO.ClassAttributeMethod",
             "projectName": "JAVA_af599cd2"
         },
         {

@@ -43,12 +43,37 @@ public class ClassAttributeMethod {
         ///////////////////////SESSION CLASS ATTRIBUTE Y METHOD  ////////////////////
         //////////////////////      PARTE 2              ///////////////////
 
-        Persona persona_1 = new Persona();
-        persona_1.nombre = "Keiner";
-        persona_1.apellido = "Muñoz";
-        persona_1.edad = 18;
-        persona_1.carrera.nombre = "Futbolista";
+        // Persona persona_1 = new Persona();
+        // persona_1.nombre = "Keiner";
+        // persona_1.apellido = "Muñoz";
+        // persona_1.edad = 18;
+        // persona_1.carrera.nombre = "Futbolista";
 
-        System.out.println(persona_1.darNombreCompleto() + " tiene " + persona_1.edad + " años y es " + persona_1.carrera.nombre);
+        // System.out.println(persona_1.darNombreCompleto() + " tiene " + persona_1.edad + " años y es " + persona_1.carrera.nombre);
+
+
+        ///////////////////////SESSION POO  ////////////////////
+        //////////////////////      PARTE 1              ///////////////////
+
+        // Persona persona_1 = new Persona("Pedro","Pascal",48,"Mandaloriano", 20,true);
+
+        // System.out.println(persona_1.darNombreCompleto() 
+        // + " tiene " + persona_1.edad 
+        // + " años y esta recibido " 
+        // + persona_1.carrera.nombre);
+
+
+
+
+ ///////////////////////SESSION POO GETTERS Y SETTERS ////////////////////
+        //////////////////////      PARTE 2             ///////////////////
+
+        Persona persona1 = new Persona("Pedro","Pascal",48);
+
+        persona1.setNombre("Ricardo");
+        persona1.setApellido("Darin");
+
+        System.out.println(persona1.darNombreCompleto() 
+        + " tiene " + persona1.getEdad() + " años. " );
     }
 }
