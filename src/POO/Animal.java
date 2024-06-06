@@ -10,7 +10,7 @@ public class Animal {
         }
 
         public String hacerSonido(){
-            return "Hacer sonido generico";
+            return "Grrr";
         }
     
 }

@@ -68,12 +68,29 @@ public class ClassAttributeMethod {
  ///////////////////////SESSION POO GETTERS Y SETTERS ////////////////////
         //////////////////////      PARTE 2             ///////////////////
 
-        Persona persona1 = new Persona("Pedro","Pascal",48);
+        // Persona persona1 = new Persona("Pedro","Pascal",48);
 
-        persona1.setNombre("Ricardo");
-        persona1.setApellido("Darin");
+        // persona1.setNombre("Ricardo");
+        // persona1.setApellido("Darin");
 
-        System.out.println(persona1.darNombreCompleto() 
-        + " tiene " + persona1.getEdad() + " años. " );
+        // System.out.println(persona1.darNombreCompleto() 
+        // + " tiene " + persona1.getEdad() + " años. " );
+
+
+        ///////////////////////SESSION POO HERENCIA ////////////////////
+        //////////////////////      PARTE 1             ///////////////////
+
+        Animal animal = new Animal("Bestia",  200);
+        Gato gato = new Gato("Pepe", 15);
+        Perro perro = new Perro("firulais", 3);
+
+        System.out.println("El animal llamado " + animal.nombre + "hace:");
+        System.out.println(animal.hacerSonido());
+
+        System.out.println("El gato llamado " + gato.nombre + " hace:");
+        System.out.println(gato.hacerSonido());
+
+        System.out.println("El perro llamado " + perro.nombre + " hace:");
+        System.out.println(perro.hacerSonido());
     }
 }

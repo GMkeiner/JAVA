@@ -1,15 +1,15 @@
 package POO;
 
-// Con esto especificamos que gato hereda de animal
-public class Gato extends Animal{
-
+public class Perro extends Animal{
+    
     // Con la palabra super estamos asignando la informacion heredada
-    public Gato(String nombre , int edad){
+    public Perro(String nombre , int edad){
         super(nombre , edad);
     }
 
+    //con el decorador override podemos sobreescribir un metodo
     @Override
     public String hacerSonido(){
-        return "Miau";
+        return "Guau";
     }
 }
