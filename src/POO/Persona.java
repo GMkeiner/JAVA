@@ -48,8 +48,6 @@ public class Persona {
         this.apellido = apellido;
         this.edad = edad;
     }
-   
-
 
     // Metodos (Comportamientos de un objeto)
     public String darNombreCompleto(){
@@ -57,7 +55,6 @@ public class Persona {
         // return apellido + ", " + nombre;
     }
 
-   
 
     public String enviarSaludo(String saludado){
         if(edad  > 40) return "Buenos Dias, querido " + saludado;
@@ -70,31 +67,21 @@ public class Persona {
         return nombre;
     }
 
-
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-
 
     public String getApellido() {
         return apellido;
     }
 
-
-
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
 
-
-
     public int getEdad() {
         return edad;
     }
-
-
 
     public void setEdad(int edad) {
         this.edad = edad;
