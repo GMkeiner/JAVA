@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Excepciones.App",
+            "projectName": "JAVA_f74a6b77"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Interfaces.App",
+            "projectName": "JAVA_f74a6b77"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "ClaseAbstracta.App",
+            "projectName": "JAVA_f74a6b77"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Static.App",
+            "projectName": "JAVA_f74a6b77"
+        },
+        {
+            "type": "java",
             "name": "ClassAttributeMethod",
             "request": "launch",
             "mainClass": "POO.ClassAttributeMethod",
