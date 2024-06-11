@@ -8,6 +8,27 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "Mapas.App",
+            "projectName": "JAVA_af599cd2"
+        },
+        {
+            "type": "java",
+            "name": "Listas",
+            "request": "launch",
+            "mainClass": "Colecciones.Listas",
+            "projectName": "JAVA_af599cd2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Colecciones.App",
+            "projectName": "JAVA_af599cd2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "Excepciones.App",
             "projectName": "JAVA_f74a6b77"
         },
